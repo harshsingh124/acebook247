@@ -82,10 +82,6 @@ a {
     letter-spacing: 1px;
 }
 
-#card #one {
-    margin: 0px;
-    flex: 1;
-}
 
 #one .icon {
     padding: 20px;
