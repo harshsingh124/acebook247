@@ -1,16 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.378), rgba(24, 24, 24, 0.371)),
-    url(./images/61fa370baa75264321c10ccf_cricket.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(24, 24, 24, 0.414)),
+    url(./images/soccer-vector-stadium_225004-1131.avif);
 background-repeat: no-repeat;
-background-color: white;
 background-attachment: fixed;
 background-size: 100%;
 }
 
 #seven {
-   
     display: flex;
     text-align: center;
     align-items: center;
@@ -19,45 +17,61 @@ background-size: 100%;
   
 }
 
+
+
 #seven h1 {
-    color: white;
-    font-size: 12vh;
+    font-size: 15vh;
     margin-bottom: 0;
     margin-top: 0;
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    color: #ffef3a;
+text-shadow: 0 0 10px #FFFFFF;
+
 }
 
 #seven h4 {
     margin-top: 0;
-    color: white;
-    font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 25px;
+    font-family: "Acme", sans-serif;
+    color: #ffe3e3;
+text-shadow: #2a2a2a 1px 1px; 
+letter-spacing: 1px;
+    
 }
 
 #seven button {
-    margin: 20px;
+    margin: 30px;
     padding: 10px;
-    color: white;
-    border-radius: 2px;
-    border: solid 0.1px rgb(204, 204, 204);
-    background-color: #2c2927;
-    font-size: medium;
+    color: rgb(216, 117, 117);
+    border-radius: 1px;
+    background-color: #171717;
+    font-size: large;
+    background-image: linear-gradient(144deg,#ffb340, #f3ed42 50%,#eb9500);    
+    
 }
 
 a {
-    color: white;
+    font-family: "Acme", sans-serif;
+    color: rgb(17, 17, 17);
     text-decoration: none;
 }
 
 #benifits {
     margin-top: 0;
-    background-color: #f5efdc;
+    background-color: #f8c14a;
     text-align: center;
     font-size: 30px;
 }
 
 #benifits h1 {
-    color: #2c2927;
+
+    margin-bottom: 20px;
+    color: #333333;
+text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    font-family: "Acme", sans-serif;
     padding-top: 40px;
     margin-top: 0;
 }
@@ -66,20 +80,24 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  margin: 3px;
 }
 
 #card h1 {
+    font-family: "Acme", sans-serif;
     margin-top: 0;
     color: #2c2927;
     font-size: 25px;
 }
 
+
 #card h4 {
-    color: #2c2927;
+    color: #121212;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
+    
 }
 
 
@@ -90,16 +108,19 @@ a {
     height: 40px;
     border-radius: 50%;
     font-size: 40px;
+    border: 2px solid black;
 }
 
 #one button {
     margin: 20px;
     padding: 10px;
-    color: white;
-    border-radius: 2px;
-    border: solid 0.1px rgb(204, 204, 204);
-    background-color: #2c2927;
     font-size: 15px;
+
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
 }
 
 #about {
@@ -109,11 +130,12 @@ a {
     padding: 50px;
 }
 
-#about h1 {
+#about h2 {
+    font-family: "Acme", sans-serif;
     margin-top: 0;
     text-align: center;
     color: #2c2927;
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 20px;
 }
 
@@ -134,35 +156,49 @@ a {
     color: white;
     border-radius: 2px;
     border: solid 0.1px rgb(204, 204, 204);
-    background-color: #2c2927;
+    background-color: #ffffff;
     font-size: 15px;
+    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+    background-image: linear-gradient(rgba(93, 56, 56, 0.84), rgba(61, 52, 52, 0.84) 20%);
+    border-radius: 42px;
+    border-width: 0;
+    box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(201, 165, 132, 0.4) 0 8px 12px;
+}
+
+#anchor{
+    color: white;
 }
 
 #getin {
     padding: 50px;
-    background-image: linear-gradient(rgba(13, 13, 13, 0.47), rgba(24, 24, 24, 0.47)),
-        url(./images/wp12324043-scaled.webp);
+    background-image: linear-gradient(rgba(13, 13, 13, 0.823), rgba(24, 24, 24, 0.712)),
+        url(./images/dhoni.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-attachment: fixed;
+   background-position: center;
     background-size: 100%;
     margin: 0;
     text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    box-shadow:10px 10px 20px 5px #fec731;
 }
 
 #getin h1 {
+    font-family: "Acme", sans-serif;
     margin-top: 0;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 36px;
     padding-top: 20px;
     margin-bottom: 20px;
+    color: #FFFFFF;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }
 
 #getin p {
     text-align: center;
     color: white;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
 }
@@ -170,20 +206,27 @@ a {
 #getin button {
     margin-top: 12px;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
-    color: white;
-    border-radius: 2px;
-    border: solid 0.1px rgb(204, 204, 204);
-    background-color: #2c2927;
+    color: rgb(245, 0, 0);
+    border-radius: 10px;
+    border: solid 0.1px rgb(22, 65, 235);
     font-size: 15px;
+
 }
+
+
 
 #disclaimer {
     padding: 70px;
-    background-color: white;
+    background-color: rgb(253, 241, 194);
     text-align: center;
     color: #2c2927;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+   
+    box-shadow:10px 10px 20px 5px #fec731;
 }
 
 #disclaimer p {
@@ -206,8 +249,9 @@ a {
 
 /* ------------------------------------------------------ */
 
-@media  (max-width:1700px) 
+/* @media  (max-width:1700px) 
  {
+   
     
 #seven {
     height: 80vh;
@@ -231,7 +275,7 @@ a {
 
 
 
-}
+} */
 
 
 /* --------------------------------------------------------------------------- */
@@ -239,14 +283,15 @@ a {
 @media  (max-width:1400px) 
  {
     
+ 
 #seven {
    
-    height: 60vh;
+    height: 100vh;
   
 }
 
 #seven h1 {
-    font-size: 8vh;
+    font-size: 10vh;
 }
 
 #seven h4 {
@@ -264,7 +309,7 @@ a {
 
 /* ---------------------------------------------------------------------------- */
 
-@media  (max-width:1100px) 
+/* @media  (max-width:1100px) 
  {
     
 #seven {
@@ -285,11 +330,11 @@ a {
 #seven button {
     padding: 15px;
     font-size: 15px;
-}
+} */
 
 
 
-}
+
 
 
 /* ---------------------------------------------------------------------------*/
@@ -299,11 +344,11 @@ a {
 @media  (max-width:900px) 
  {
     body{
-        background-size: 220%;
+        background-size: 100%;
     }
 #seven {
    
-    height: 50vh;
+    height: 80vh;
   
 }
 #seven h1 {
@@ -317,6 +362,7 @@ a {
 }
 
 #seven button {
+    margin: 0px;
     padding: 15px;
     font-size: 15px;
 }
@@ -331,11 +377,11 @@ a {
 @media  (max-width:900px) 
  {
     body{
-        background-size: 220%;
+        background-size: 100%;
     }
 #seven {
    
-    height: 50vh;
+    height: 60vh;
   
 }
 #seven h1 {
@@ -358,12 +404,23 @@ a {
 }
 
 
+
+/* ------------------------------------------------------------------- */
+
 @media (max-width:700px) {
     
+    
+    #seven{
+        height: 70%;
+    }
+
+    #seven h1{
+        font-size: 60px;
+    }
 
 #head{
     margin-bottom: 60px;
-      font-size: 30px;
+    font-size: 36px;
 }
 
 #card {
@@ -388,17 +445,19 @@ a {
 
 
 #about{
-    padding: 25px;
+    padding: 10px;
+    margin-bottom:0px ;
 }
 
 #about h1 {
     font-size: 40px;
-    padding-top: 20px;
 }
 
 #about p {
     font-size: 17px;
     padding: 0px;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 600;
 }
 
 #about button {
@@ -427,9 +486,10 @@ a {
 }
 
 #getin button {
-    margin: 30px;
-    padding: 15px;
+    margin: 15px;
+    padding: 10px;
     font-size: 15px;
+    margin-bottom: 40px;
 }
 
 
@@ -456,3 +516,23 @@ a {
 
 
 }
+
+
+
+
+
+@media  (min-width:300px) and (max-width:700px) 
+ {
+
+
+    #seven {
+        height: 60%;
+    }
+
+ }
+
+ hr{
+    margin: 30px;
+    color: black;
+    background-color: black;
+ }
